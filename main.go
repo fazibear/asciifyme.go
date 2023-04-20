@@ -7,15 +7,6 @@ import (
 	"syscall/js"
 )
 
-const (
-	WebcamWidth  = 320
-	WebcamHeight = 200
-	CanvasWidth  = 80
-	CanvasHeight = 40
-	Chars        = "   .,:;i1tfLCG08@"
-	CharsLength  = 16
-)
-
 var (
 	camera js.Value
 	window js.Value
